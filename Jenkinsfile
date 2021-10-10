@@ -12,12 +12,18 @@ pipeline {
         }
         stage('Lint') {
             steps {
-                sh "pylint net_api"
+                sh """
+                source venv_api_2/bin/activate
+                pylint net_api
+                """
             }
         }
         stage('Unittest') {
             steps {
-                sh "python manage.py test"
+                sh """
+                source venv_api_2/bin/activate
+                python manage.py test
+                """
             }
         }
     }
