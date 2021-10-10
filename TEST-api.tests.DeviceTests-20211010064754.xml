@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.tests.DeviceTests-20211010064754" tests="15" file="api/tests.py" time="5.491" timestamp="2021-10-10T06:47:59" failures="0" errors="0" skipped="0">
+	<testcase classname="api.tests.DeviceTests" name="test_create_item" time="0.290" timestamp="2021-10-10T06:47:54" file="api/tests.py" line="433"/>
+	<testcase classname="api.tests.DeviceTests" name="test_create_item_non_staff" time="0.510" timestamp="2021-10-10T06:47:54" file="api/tests.py" line="441"/>
+	<testcase classname="api.tests.DeviceTests" name="test_create_item_unauthenticated" time="0.268" timestamp="2021-10-10T06:47:55" file="api/tests.py" line="446"/>
+	<testcase classname="api.tests.DeviceTests" name="test_delete_item" time="0.262" timestamp="2021-10-10T06:47:55" file="api/tests.py" line="451"/>
+	<testcase classname="api.tests.DeviceTests" name="test_delete_item_non_staff" time="0.510" timestamp="2021-10-10T06:47:55" file="api/tests.py" line="455"/>
+	<testcase classname="api.tests.DeviceTests" name="test_delete_item_unauthenticated" time="0.519" timestamp="2021-10-10T06:47:56" file="api/tests.py" line="460"/>
+	<testcase classname="api.tests.DeviceTests" name="test_get_item" time="0.267" timestamp="2021-10-10T06:47:56" file="api/tests.py" line="411"/>
+	<testcase classname="api.tests.DeviceTests" name="test_get_item_not_staff" time="0.510" timestamp="2021-10-10T06:47:57" file="api/tests.py" line="419"/>
+	<testcase classname="api.tests.DeviceTests" name="test_get_item_unauthenticated" time="0.274" timestamp="2021-10-10T06:47:57" file="api/tests.py" line="428"/>
+	<testcase classname="api.tests.DeviceTests" name="test_get_list" time="0.263" timestamp="2021-10-10T06:47:57" file="api/tests.py" line="391"/>
+	<testcase classname="api.tests.DeviceTests" name="test_get_list_not_staff" time="0.515" timestamp="2021-10-10T06:47:58" file="api/tests.py" line="400"/>
+	<testcase classname="api.tests.DeviceTests" name="test_get_list_unauthenticated" time="0.266" timestamp="2021-10-10T06:47:58" file="api/tests.py" line="406"/>
+	<testcase classname="api.tests.DeviceTests" name="test_update_item" time="0.264" timestamp="2021-10-10T06:47:58" file="api/tests.py" line="465"/>
+	<testcase classname="api.tests.DeviceTests" name="test_update_item_non_staff" time="0.510" timestamp="2021-10-10T06:47:59" file="api/tests.py" line="473"/>
+	<testcase classname="api.tests.DeviceTests" name="test_update_item_unauthenticated" time="0.262" timestamp="2021-10-10T06:47:59" file="api/tests.py" line="478"/>
+</testsuite>
