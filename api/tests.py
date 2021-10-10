@@ -478,4 +478,5 @@ class DeviceTests(APITestCase):
     def test_update_item_unauthenticated(self):
         self.client.force_authenticate(user=None, token=None)
         response = self.client.put(path=self.device_detail_url, data=self.new_device_data)
-        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+        # self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
