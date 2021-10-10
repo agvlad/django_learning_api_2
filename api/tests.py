@@ -8,7 +8,7 @@ from rest_framework.test import APITestCase
 class HardwareTests(APITestCase):
     token_url = reverse('token_obtain')
     hardware_list_url = reverse('Hardware-list')  # Este numele din view set (<nume>ViewSet) + '-list'
-    hardware_detail_url = reverse('Hardware-detail', kwargs={"pk": 1})  # La fel + '-detail'. Si var necesare
+    hardware_detail_url = reverse('Hardware-detail', kwargs={"pk": 1})  # La fel + '-detail'. Si var necesare(pk)
     # pentru a gasi url-urile:
     # pip install django-extensions
     # adaugare 'django_extensions' in settings.py la INSTALLED_APPS
