@@ -137,3 +137,4 @@ REST_FRAMEWORK = {
 }
 
 TEST_RUNNER = 'xmlrunner.extra.djangotestrunner.XMLTestRunner'
+TEST_OUTPUT_DIR = './test-reports/unittest'
